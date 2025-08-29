@@ -1,40 +1,69 @@
-# Epitope Prediction Utility Scripts
-
-This repository contains custom scripts developed during my **MSc Bioinformatics dissertation project**:  
-**Multi-epitope Vaccine Design Against Hepatitis B Virus (HBV) Using Reverse Vaccinology Approach**.
-
-The scripts help automate the processing and tabulation of epitope prediction outputs from various immunoinformatics tools.
+# 🧬 Epitope  Tools
 
 ---
 
-## 📌 Current Script
-
-### 1. `vaxijen_to_excel.pl`
-
-**Problem Statement**  
-[VaxiJen](http://www.ddg-pharmfac.net/vaxijen/) is a widely used tool for antigenicity prediction.  
-However, **it does not provide an option to download results directly**. Researchers must manually copy outputs and tabulate them.  
-For large datasets, this becomes impractical since each output contains:  
-- A VaxiJen score (floating-point number)  
-- Antigenicity classification (*Probable ANTIGEN* / *Probable NON-ANTIGEN*)  
-
-Manually separating these values and creating a structured table is time-consuming and error-prone.
-
-**Solution**  
-This script automates the entire process:  
-- Takes raw VaxiJen output (copied & saved as `.txt`) as input  
-- Extracts:
-  - Epitope ID  
-  - Sequence  
-  - VaxiJen score  
-  - Antigenicity result  
-- Saves results into a clean, well-formatted **Excel spreadsheet (.xlsx)**  
-
-This enables efficient handling of **large-scale epitope datasets**.
+## 🌟 Highlights
+- 🚀 Automates tedious manual parsing of **VaxiJen** and **AllerTOP** webserver outputs.  
+- 📊 Converts raw text outputs into structured **Excel spreadsheets**.  
+- 🧪 Handles **large datasets** where copy–pasting results is not humanly possible.  
+- 🐪 Written in **Perl**, a classic bioinformatics scripting language, optimized for **text parsing**.  
 
 ---
 
-## 🚀 Usage
+## ℹ️ Overview
+Many bioinformatics webservers (like **VaxiJen(all versions)** and **AllerTOP**) do not provide an option to **download results**.  
+Instead, they display predictions on the webpage, forcing researchers to manually copy, paste, and tabulate the results.  
+
+👉 This becomes impractical when working with **hundreds or thousands of peptides**, each output containing:  
+- A **score** (e.g. VaxiJen score, floating point)  
+- A **prediction** (e.g. *Probable ANTIGEN* / *NON-ANTIGEN* / *ALLERGEN*/ *NON-ALLERGEN*)  
+
+These Perl scripts solve this problem by:  
+1. Reading raw `.txt` files saved from the webserver output.  
+2. Extracting IDs, peptide sequences, and prediction values using **Regular Expressions (RegEx)**.  
+3. Writing them neatly into an Excel file (`.xls` or `.xlsx`) for downstream analysis.  
+
+💡 In short:  
+**Unstructured text in → Structured spreadsheet out.**  
+
+---
+
+## ✍️ Authors
+👨‍🔬 **Vaishnav P. Varma**  
+[GitHub Profile](https://github.com/vaishnavvarma) | Bioinformatician by Degree| Photographer by Passion| My creativity is from my Laziness 😉  
+
+---
+
+## ⬇️ Installation/Prerequisites
+1) Install **Perl 5**  
+   - Linux/macOS: usually preinstalled  
+   - Windows: install via **Strawberry Perl** → https://strawberryperl.com/
+
+2) Install Perl modules:
+```bash
+cpan Excel::Writer::XLSX          # for VaxiJen script (.xlsx)
+cpan Spreadsheet::WriteExcel      # for AllerTOP script (.xls)
+
+```
+3) Clone the repo:
 
 ```bash
-perl vaxijen_to_excel.pl input_file.txt output_file.xlsx
+git clone https://github.com/vaishnavvarma/epitope-scripts.git
+cd epitope-scripts
+```
+🚀 Usage (no command-line arguments)
+1️⃣ VaxiJen → Excel (.xlsx)
+
+Step A: Edit file paths inside the script
+Open scripts/vaxijen_to_excel.pl in your preferred Text Editor and set:
+```
+# Change these to your files/paths
+my $input_file  = "path/to/vaxijen_output.txt";
+my $output_file = "vaxijen_results.xlsx";
+```
+Step B: Run in commandline/terminal
+```
+perl scripts/vaxijen_to_excel.pl
+```
+
+
