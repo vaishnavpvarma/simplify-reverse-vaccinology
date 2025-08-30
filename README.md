@@ -145,11 +145,15 @@ Actual Creators of VaxiJen:
 - [Read More Here (BMC Bioinformatics, 2007)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-8-4)  
 ____________________________________________________________________________________________________________________________________________________________________________
 
-## ✍ Behind the Code(vaxijen-antogenicity-parser)
+## ✍ Behind the Code (vaxijen-antigenicity-parser)
 
-👨‍🔬 **Vaishnav P. Varma**  [GitHub Profile](https://github.com/vaishnavvarma)   
-Bioinformatician by training | Photographer by heart | Turning coffee and curiosity into code ☕
+👨‍🔬 **Vaishnav P. Varma**  
+[GitHub Profile](https://github.com/vaishnavvarma) [LinkedIn Profile](https://www.linkedin.com/in/vaishnav-p-varma/)   
+
+💻 *Bioinformatician by training | 📸 Photographer by heart | ☕ Turning coffee & curiosity into code*  
+
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-yellow)](https://buymeacoffee.com/vaishnavpvarma)
 
-----------
-Crafted with ❤️, code, and curry in India 🇮🇳
+---
+
+✨ Crafted with ❤️, code, and curry in India 🇮🇳
