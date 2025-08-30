@@ -132,9 +132,18 @@ Or escape backslashes: C:\\Users\\Name\\Desktop\\input.txt
 - 🎓 Students learning about data parsing and file processing
 - 🔬 Labs that need to process VaxiJen antigenicity predictions regularly
 
+_ _ _ _ _ _  
+## **More About VaxiJen**
+Actual Creators of VaxiJen: [![Prof. Irini Doychinova](https://pharmfac.mu-sofia.bg/?page_id=5444&lang=en)] & [![Darren Flower](https://www.linkedin.com/in/darrenflower/?originalSubdomain=uk)
+## Use VaxiJen:
+[![VaxiJen v2.0](https://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html)]
+[![VaiJen v3.0](https://www.ddg-pharmfac.net/vaxijen3/home/)]
+[![Read More Here](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-8-4)]
+
 ## ✍ Behind the Code
 👨‍🔬 **Vaishnav P. Varma**  [GitHub Profile](https://github.com/vaishnavvarma)   
 Bioinformatician by training | Photographer by heart | Turning coffee and curiosity into code ☕
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-yellow)](https://buymeacoffee.com/vaishnavpvarma)
 
 ----------
 Crafted with ❤️, code, and curry in India 🇮🇳
