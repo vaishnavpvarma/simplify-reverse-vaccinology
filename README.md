@@ -137,7 +137,7 @@ _ _ _ _ _ _
 ## **More About VaxiJen**
 Actual Creators of VaxiJen:  
 - [Prof. Irini Doychinova](https://pharmfac.mu-sofia.bg/?page_id=5444&lang=en)  
-- [Prof. Darren Flower](https://www.linkedin.com/in/darrenflower/?originalSubdomain=uk)  
+- [Darren Flower](https://www.linkedin.com/in/darrenflower/?originalSubdomain=uk)  
 
 ## **Use VaxiJen**
 - [VaxiJen v2.0](https://www.ddg-pharmfac.net/vaxijen/VaxiJen/VaxiJen.html)  
