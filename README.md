@@ -104,7 +104,7 @@ cpan Spreadsheet::WriteExcel      # for AllerTOP script (.xls)
 git clone https://github.com/vaishnavvarma/epitope-scripts.git
 cd epitope-scripts
 ```
-## **🚀 Usage (no command-line arguments)**
+##  **🚀 Usage** (no command-line arguments)
 1️⃣ VaxiJen → Excel (.xlsx)
 
 Step A: Edit file paths inside the script
