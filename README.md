@@ -95,14 +95,17 @@ Uses a **forward-looking sequential search**:
 cpan Excel::Writer::XLSX          # for VaxiJen script (.xlsx)
 cpan Spreadsheet::WriteExcel      # for AllerTOP script (.xls)
 
+
 ```
+##**Installation**
+
 3) Clone the repo:
 
 ```bash
 git clone https://github.com/vaishnavvarma/epitope-scripts.git
 cd epitope-scripts
 ```
-🚀 Usage (no command-line arguments)
+##**🚀 Usage (no command-line arguments)**
 1️⃣ VaxiJen → Excel (.xlsx)
 
 Step A: Edit file paths inside the script
