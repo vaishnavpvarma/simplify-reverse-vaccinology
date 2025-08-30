@@ -94,10 +94,9 @@ Uses a **forward-looking sequential search**:
 ```bash
 cpan Excel::Writer::XLSX          # for VaxiJen script (.xlsx)
 cpan Spreadsheet::WriteExcel      # for AllerTOP script (.xls)
-
-
 ```
-##**Installation**
+
+## **Installation**
 
 3) Clone the repo:
 
