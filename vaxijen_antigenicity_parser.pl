@@ -15,8 +15,8 @@ if ($@) {
 }
 
 # Input file path - CHANGE THIS TO YOUR FILE PATH
-my $input_file = "E:/msc_dissertation/t_cell_prediction/iedb_mhcII_results/htl_16mer/vaxijen_antigenicity_results_16mer_unique.txt";
-my $output_file = "vaxijen_results_htl_pred_16mer_unique.xlsx";
+my $input_file = "/path/to/vaxijen_results.txt";
+my $output_file = "/path/to/vaxijen_parsed_results.xlsx";
 
 # Check if input file exists
 if (!-f $input_file) {
