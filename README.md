@@ -101,8 +101,8 @@ cpan Spreadsheet::WriteExcel      # for AllerTOP script (.xls)
 3) Clone the repo:
 
 ```bash
-git clone https://github.com/vaishnavvarma/epitope-scripts.git
-cd epitope-scripts
+git clone https://github.com/vaishnavvarma/vaxijen-antigenicity-parser.git
+cd vaxijen-antigenicity-parser
 ```
 ##  **🚀 Usage** (no command-line arguments)
 1️⃣ VaxiJen → Excel (.xlsx)
