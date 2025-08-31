@@ -115,7 +115,7 @@ my $output_file = "vaxijen_results.xlsx";
 ```
 Step B: Run in commandline/terminal
 ```
-perl scripts/vaxijen_to_excel.pl
+perl scripts/vaxijen-antigenicity-parser.pl
 ```
 💡 Tips for file paths (Windows):
 
